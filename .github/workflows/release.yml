@@ -19,6 +19,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - run: git fetch && git pull
       - name: download npm files
         run: |
           curl -L https://raw.githubusercontent.com/forge-for-gitea/template-semantic-release/refs/heads/main/package.json > package.json
