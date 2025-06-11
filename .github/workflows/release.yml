@@ -21,8 +21,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: download npm files
         run: |
-          curl -L https://raw.githubusercontent.com/forge-for-gitea/semantic-release-template/refs/heads/main/package.json > package.json
-          curl -L https://raw.githubusercontent.com/forge-for-gitea/semantic-release-template/refs/heads/main/package-lock.json > package-lock.json
+          curl -L https://raw.githubusercontent.com/forge-for-gitea/template-semantic-release/refs/heads/main/package.json > package.json
+          curl -L https://raw.githubusercontent.com/forge-for-gitea/template-semantic-release/refs/heads/main/package-lock.json > package-lock.json
       - name: copy config files
         run: |
           cp .github/semantic-release/.releaserc.yaml .
