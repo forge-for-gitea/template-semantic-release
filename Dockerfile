@@ -1,6 +1,4 @@
-ARG NODE_VERSION=lts-alpine
-
-FROM node:$NODE_VERSION AS base
+FROM node:lts-alpine AS base
 
 WORKDIR /usr/bin/app
 
