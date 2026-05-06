@@ -67,8 +67,9 @@ jobs:
             fi
 
           fi
-      - uses: actions/setup-node@v4
+      - uses: cycjimmy/semantic-release-action@v4
+        id: semantic-release
         with:
-          node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npx semantic-release --dry-run --debug
+          dry_run: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
