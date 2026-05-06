@@ -38,6 +38,10 @@ jobs:
           push: false
   semantic-release:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version:
+          - 26
     steps:
       - uses: actions/checkout@v4
         with:
