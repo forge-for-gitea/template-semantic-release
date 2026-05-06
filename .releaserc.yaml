@@ -11,7 +11,6 @@ plugins:
         - type: 'build'
           scope: 'deps'
           release: 'patch'
-  - 'conventional-changelog-conventionalcommits'
   - - '@semantic-release/release-notes-generator'
     - preset: 'conventionalcommits'
       presetConfig:
