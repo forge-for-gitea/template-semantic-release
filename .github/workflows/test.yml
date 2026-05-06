@@ -1,8 +1,20 @@
 name: Tests
 
 on:
-  push: ~
-  pull_request: ~
+  push:
+    branches-ignore:
+      - main
+      - master
+      - v*.*
+  pull_request:
+    branches-ignore:
+      - main
+      - master
+      - v*.*
+    types:
+      - opened
+      - reopened
+      - synchronize
 
 env:
   BRANCH: ${{ github.head_ref || github.ref_name }}
@@ -12,3 +24,45 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{env.BRANCH}}
+      - run: cp .env.dist .env
+      - uses: falti/dotenv-action@v1
+        id: dotenv
+      - uses: docker/setup-qemu-action@v4
+      - uses: docker/setup-buildx-action@v4
+      - uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: ./Dockerfile
+          push: false
+  semantic-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{env.BRANCH}}
+      - run: cp .env.dist .env
+      - uses: falti/dotenv-action@v1
+        id: dotenv
+      - run: git fetch && git pull
+      - name: copy config files
+        run: |
+          if [ ! -f ".releaserc.yaml" ]; then
+
+            if [ -d ".github" ]; then
+              cp .github/semantic-release/.releaserc.yaml . \
+                && printf "copied: %s\n" ".releaserc.yaml" \
+                && exit 0;
+            fi
+
+            if [ -d ".gitea" ]; then
+              cp .gitea/semantic-release/.releaserc.yaml . \
+                && printf "copied: %s\n" ".releaserc.yaml" \
+                && exit 0;
+            fi
+
+          fi
+      - uses: actions/setup-node@v4
+      - run: npm ci
+      - run: npx semantic-release --dry-run --debug
