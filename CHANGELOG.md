@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.0.2...v1.1.0) (2026-05-27)
+
+### Features
+
+* creating release for deps updating ([d8b25fb](https://github.com/forge-for-gitea/template-semantic-release/commit/d8b25fbee9596fb8140c4a15ac926ee1ef8c2e03))
+
 ## [1.0.2](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.0.1...v1.0.2) (2026-05-27)
 
 ### Bug Fixes
