@@ -1,6 +1,6 @@
 plugins:
   - - '@semantic-release/commit-analyzer'
-    - preset: 'angular'
+    - preset: 'conventionalcommits'
       releaseRules:
         - type: 'chore'
           scope: 'deps'
@@ -21,6 +21,10 @@ plugins:
             section: 'Bug Fixes'
           - type: 'chore'
             scope: 'deps'
+            section: 'Dependency Updates'
+            hidden: false
+          - type: 'chore'
+            scope: 'deps-dev'
             section: 'Dependency Updates'
             hidden: false
           - type: 'build'
