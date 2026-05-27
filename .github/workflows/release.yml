@@ -39,12 +39,12 @@ jobs:
             fi
 
           fi
-      - uses: cycjimmy/semantic-release-action@v4
+      - uses: cycjimmy/semantic-release-action@v6
         id: semantic-release
         with:
           dry_run: true
           extra_plugins: |
-            conventional-changelog-conventionalcommits@8.0.0
+            conventional-changelog-conventionalcommits
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: editing CHANGELOG.md
@@ -93,10 +93,10 @@ jobs:
             fi
 
           fi
-      - uses: cycjimmy/semantic-release-action@v4
+      - uses: cycjimmy/semantic-release-action@v6
         id: semantic-release
         with:
           extra_plugins: |
-            conventional-changelog-conventionalcommits@8.0.0
+            conventional-changelog-conventionalcommits
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
