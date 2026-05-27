@@ -1,3 +1,15 @@
+## [1.2.0](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.1.0...v1.2.0) (2026-05-27)
+
+### Features
+
+* added dependabot ([e6a3dc7](https://github.com/forge-for-gitea/template-semantic-release/commit/e6a3dc7378637d3db833d7dbc883a46fa18db28f))
+
+### Dependency Updates
+
+* **deps:** bump actions/checkout from 4 to 6 ([9c71f5c](https://github.com/forge-for-gitea/template-semantic-release/commit/9c71f5c9ee1411093193b1bc9851a537865418d9))
+* **deps:** bump amannn/action-semantic-pull-request from 5 to 6 ([15d739b](https://github.com/forge-for-gitea/template-semantic-release/commit/15d739bc044b49bdd7717b672286b9d819d3bb76))
+* **deps:** using node:26.2.0-alpine ([dc85191](https://github.com/forge-for-gitea/template-semantic-release/commit/dc85191af37eba72c377f6de6e36dc55f60a1a21))
+
 ## [1.1.0](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.0.2...v1.1.0) (2026-05-27)
 
 ### Features
