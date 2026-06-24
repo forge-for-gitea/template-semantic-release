@@ -23,7 +23,7 @@ jobs:
   docker-build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           ref: ${{env.BRANCH}}
       - run: cp .env.dist .env
@@ -46,7 +46,7 @@ jobs:
         node-version:
           - 26
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           ref: ${{env.BRANCH}}
       - run: cp .env.dist .env
