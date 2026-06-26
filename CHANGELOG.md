@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.2.0...v1.2.1) (2026-06-26)
+
+### Dependency Updates
+
+* **deps:** bump node from 26.2.0-alpine to 26.3.1-alpine ([054f0ac](https://github.com/forge-for-gitea/template-semantic-release/commit/054f0ac4afa3f05ec15739edb01d8853f359465b))
+
 ## [1.2.0](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.1.0...v1.2.0) (2026-05-27)
 
 ### Features
