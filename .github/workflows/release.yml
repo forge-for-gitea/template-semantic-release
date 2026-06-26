@@ -17,7 +17,7 @@ jobs:
   docker-build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - run: cp .env.dist .env
       - uses: falti/dotenv-action@v1
         id: dotenv
@@ -36,7 +36,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GH_PUSH_ACCESS_TOKEN }}
       - run: git fetch && git pull
@@ -93,7 +93,7 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - run: git fetch && git pull
       - name: copy config files
         run: |
