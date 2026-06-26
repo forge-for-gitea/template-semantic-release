@@ -1,3 +1,9 @@
+## [1.2.2](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.2.1...v1.2.2) (2026-06-26)
+
+### Dependency Updates
+
+* **deps:** bump actions/checkout from 4 to 7 ([1ad3915](https://github.com/forge-for-gitea/template-semantic-release/commit/1ad391561dc4076636828be8933b9e5ab0972890))
+
 ## [1.2.1](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.2.0...v1.2.1) (2026-06-26)
 
 ### Dependency Updates
