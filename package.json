@@ -2,6 +2,6 @@
   "name": "app",
   "devDependencies": {
     "@forge-for-gitea/semantic-release-gitea": "^1.2.0",
-    "semantic-release": "^25.0.5"
+    "semantic-release": "^25.0.7"
   }
 }
