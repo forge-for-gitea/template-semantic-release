@@ -1,3 +1,8 @@
+## [1.2.5](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.2.4...v1.2.5) (2026-08-05)
+
+
+
+
 ## [1.2.4](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.2.3...v1.2.4) (2026-07-20)
 
 
