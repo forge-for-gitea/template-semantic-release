@@ -1,4 +1,4 @@
-FROM node:26.8.2-alpine AS base
+FROM node:26.10.0-alpine AS base
 
 WORKDIR /usr/bin/app
 
