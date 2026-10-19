@@ -53,24 +53,7 @@ jobs:
       - uses: falti/dotenv-action@v1
         id: dotenv
       - run: git fetch && git pull
-      - name: copy config files
-        run: |
-          if [ ! -f ".releaserc.yaml" ]; then
-
-            if [ -d ".github" ]; then
-              cp .github/semantic-release/.releaserc.yaml . \
-                && printf "copied: %s\n" ".releaserc.yaml" \
-                && exit 0;
-            fi
-
-            if [ -d ".gitea" ]; then
-              cp .gitea/semantic-release/.releaserc.yaml . \
-                && printf "copied: %s\n" ".releaserc.yaml" \
-                && exit 0;
-            fi
-
-          fi
-      - uses: cycjimmy/semantic-release-action@v6
+      - uses: cycjimmy/semantic-release-action@v8.1.3
         id: semantic-release
         with:
           dry_run: true
