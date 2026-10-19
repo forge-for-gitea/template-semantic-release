@@ -62,7 +62,8 @@ jobs:
         with:
           dry_run: true
           extra_plugins: |
-            conventional-changelog-conventionalcommits
+            conventional-changelog-conventionalcommits@9
+            conventional-changelog-writer@9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: editing CHANGELOG.md
@@ -116,6 +117,7 @@ jobs:
         id: semantic-release
         with:
           extra_plugins: |
-            conventional-changelog-conventionalcommits
+            conventional-changelog-conventionalcommits@9
+            conventional-changelog-writer@9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
