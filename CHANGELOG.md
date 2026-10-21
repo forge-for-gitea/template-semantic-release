@@ -2,6 +2,43 @@
 
 ### Features
 
+* install `@semantic-release/changelog` ([adfc0e9](https://github.com/forge-for-gitea/template-semantic-release/commit/adfc0e954aca2b6fed9eb89813656cb51b7e32e0))
+* install `@semantic-release/git` ([ad843e8](https://github.com/forge-for-gitea/template-semantic-release/commit/ad843e8334198020fcb1cfa9c7747bc8fdb3d582))
+* install `conventional-changelog-conventionalcommits` ([5037656](https://github.com/forge-for-gitea/template-semantic-release/commit/50376561fc4622db42fb0a5f156f1ef1b680de93))
+* install `conventional-changelog-writer@9` ([fa33292](https://github.com/forge-for-gitea/template-semantic-release/commit/fa33292f42fba2bac729d75428a152d749938dae))
+
+### Bug Fixes
+
+* **semantic-release:** creating release ([e0a324e](https://github.com/forge-for-gitea/template-semantic-release/commit/e0a324e93f9c0780b55ef227dfe7be2d71371f38))
+
+### Reverts
+
+* install `conventional-changelog-conventionalcommits@9` ([657a623](https://github.com/forge-for-gitea/template-semantic-release/commit/657a623acce2aadde5756d4e1a1187602e50fd37))
+
+### Build System
+
+* **deps-dev:** bump semantic-release from 25.0.8 to 25.0.9 ([627a8ae](https://github.com/forge-for-gitea/template-semantic-release/commit/627a8ae2640006675a7f2e7a6e50a17de95de08d))
+* **deps:** bump node from 26.11.1-alpine to 26.12.0-alpine ([84bf19b](https://github.com/forge-for-gitea/template-semantic-release/commit/84bf19ba20e30d71195b7e5145421622f3fe8fe8))
+* **deps:** bump node from 26.5.1-alpine to 26.7.0-alpine ([14f11ae](https://github.com/forge-for-gitea/template-semantic-release/commit/14f11aee902f4587bbffe3751f1608bc17288c7a))
+* **deps:** bump node from 26.7.0-alpine to 26.8.1-alpine ([002ad84](https://github.com/forge-for-gitea/template-semantic-release/commit/002ad847016d01f2265403e7c01d24980f524796))
+* **deps:** bump node from 26.8.1-alpine to 26.8.2-alpine ([505826b](https://github.com/forge-for-gitea/template-semantic-release/commit/505826bc7354d552c6b4f522bb2e6445f1132661))
+* **deps:** bump node from 26.8.2-alpine to 26.11.1-alpine ([d7a50ed](https://github.com/forge-for-gitea/template-semantic-release/commit/d7a50ed7dfc11463c63b228dde5167f2f489932f))
+
+### Documentation
+
+* **changelog:** auto-update CHANGELOG.md ([0008439](https://github.com/forge-for-gitea/template-semantic-release/commit/0008439343469393156cb4339da0dfd792f77987))
+* **changelog:** auto-update CHANGELOG.md ([ae8213f](https://github.com/forge-for-gitea/template-semantic-release/commit/ae8213f6bc488e3a94377e0303c292284addba72))
+* remove changelog after error ([d4a2c7b](https://github.com/forge-for-gitea/template-semantic-release/commit/d4a2c7bc7d3e6ca988126c9b729b4dae0836fe9c))
+
+### Continuous Integration
+
+* **semantic-release:** fix access error ([cc18389](https://github.com/forge-for-gitea/template-semantic-release/commit/cc183891e2451f5d585ab1df3ae3ca7c91369beb))
+* **semantic-release:** use new configuration ([9f5be9d](https://github.com/forge-for-gitea/template-semantic-release/commit/9f5be9dda948db77af4115784a80cefc6d7dba2d))
+
+## [1.3.0](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.2.5...v1.3.0) (2026-10-21)
+
+### Features
+
 * install  ([adfc0e9](https://github.com/forge-for-gitea/template-semantic-release/commit/adfc0e954aca2b6fed9eb89813656cb51b7e32e0))
 * install  ([ad843e8](https://github.com/forge-for-gitea/template-semantic-release/commit/ad843e8334198020fcb1cfa9c7747bc8fdb3d582))
 * install  ([5037656](https://github.com/forge-for-gitea/template-semantic-release/commit/50376561fc4622db42fb0a5f156f1ef1b680de93))
@@ -110,7 +147,3 @@
 ### Features
 
 * first version ([6bcba08](https://github.com/forge-for-gitea/semantic-release-template/commit/6bcba088b9ce4419876e295eb067dae95a3f1599))
-
-
-
-
