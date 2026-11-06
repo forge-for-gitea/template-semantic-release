@@ -5,6 +5,17 @@
 * **deps:** bump cycjimmy/semantic-release-action from 8.1.3 to 8.1.4 ([0bdc1d2](https://github.com/forge-for-gitea/template-semantic-release/commit/0bdc1d28881eb6f8496b65588a4b48fb3ba68676))
 * **deps:** bump node from 26.12.1-alpine to 26.13.0-alpine ([da64954](https://github.com/forge-for-gitea/template-semantic-release/commit/da6495456502b1f0a1f5f9c1ae5536f5149fd10e))
 
+### Documentation
+
+* **changelog:** auto-update CHANGELOG.md ([3c0c37a](https://github.com/forge-for-gitea/template-semantic-release/commit/3c0c37a65574323de6cd5d1c80e3cf3a30b5aa0d))
+
+## [1.3.2](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.3.1...v1.3.2) (2026-11-06)
+
+### Build System
+
+* **deps:** bump cycjimmy/semantic-release-action from 8.1.3 to 8.1.4 ([0bdc1d2](https://github.com/forge-for-gitea/template-semantic-release/commit/0bdc1d28881eb6f8496b65588a4b48fb3ba68676))
+* **deps:** bump node from 26.12.1-alpine to 26.13.0-alpine ([da64954](https://github.com/forge-for-gitea/template-semantic-release/commit/da6495456502b1f0a1f5f9c1ae5536f5149fd10e))
+
 ## [1.3.1](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.3.0...v1.3.1) (2026-10-28)
 
 ### Build System
