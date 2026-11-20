@@ -4,6 +4,16 @@
 
 * **deps:** bump node from 26.13.0-alpine to 26.13.1-alpine ([f96e72b](https://github.com/forge-for-gitea/template-semantic-release/commit/f96e72b6adfe9ba6cbd21c9cf2f565ce5dcda648))
 
+### Documentation
+
+* **changelog:** auto-update CHANGELOG.md ([2fd2a56](https://github.com/forge-for-gitea/template-semantic-release/commit/2fd2a56f17de29d9efbf786fee27ac9db27c1322))
+
+## [1.3.3](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.3.2...v1.3.3) (2026-11-20)
+
+### Build System
+
+* **deps:** bump node from 26.13.0-alpine to 26.13.1-alpine ([f96e72b](https://github.com/forge-for-gitea/template-semantic-release/commit/f96e72b6adfe9ba6cbd21c9cf2f565ce5dcda648))
+
 ## [1.3.2](https://github.com/forge-for-gitea/template-semantic-release/compare/v1.3.1...v1.3.2) (2026-11-06)
 
 ### Build System
